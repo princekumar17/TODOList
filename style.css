@@ -1,0 +1,95 @@
+body {
+    font-family: font-family: 'Baloo Bhai 2', cursive;;
+    padding: 20px;
+    background-color: #EFC7C2;
+  }
+  
+  h1 {
+    text-align: center;
+    color: #333;
+  }
+  
+  #todo-form {
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: center;
+  }
+  
+  #todo-input {
+    width: 200px;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+  }
+  
+  button {
+    padding: 10px 20px;
+    margin-left: 1rem;
+    background-color: #BFD3C1;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #45a049;
+  }
+  
+  ul {
+    list-style-type: none;
+    padding: 0;
+    background-color: #FFE5D4;
+  }
+  
+  li {
+    margin-bottom: 10px;
+    background-color: #FFE5D4;
+    padding: 15px;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .completed {
+    text-decoration: line-through;
+    opacity: 0.5;
+  }
+  
+  li span {
+    margin-left: 10px;
+    font-size: 16px;
+  }
+  
+  button.delete-button {
+    margin-left: auto;
+    background-color: #f44336;
+  }
+  
+  button.delete-button:hover {
+    background-color: #e53935;
+  }
+  
+  /* Responsive Styles */
+  
+  @media (max-width: 600px) {
+    #todo-form {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    #todo-input {
+      width: 100%;
+    }
+  
+    button {
+      width: 100%;
+    }
+  }
+  
+  
+  
